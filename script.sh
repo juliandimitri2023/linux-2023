@@ -1,12 +1,12 @@
 #!/bin/bash
+#script.sh
 
-# Actualizar el sistema e instalar NGINX
-#apt-get update
-#apt-get install -y nginx
+# Mensaje de información al usuario
+echo "Trabajo práctico de Administración de Sistemas Linux"
+echo "Integrantes: Dimitri Julián, Ferrara Jonathan y Céspedes Brian"
+echo "El servidor NGINX se encuentra corriendo a partir de UBUNTU"
+echo "Dirección para visualizar el HTML---> localhost:8080"
 
-# Mensaje de estado
-echo "El servidor NGINX se encuentra corriendo"
-echo "Dirección: localhost:8080"
 # Ruta del archivo de contador
 CONTADOR_FILE="/datos/contador.txt"
 
@@ -27,15 +27,10 @@ echo "$CONTADOR" > "$CONTADOR_FILE"
 
 # Imprimir mensaje con el valor del contador
 echo "Este contenedor ha sido ejecutado $CONTADOR veces."
-# Copiar archivos HTML y CSS
-#cp /script/index.html /var/www/html/
-#cp /script/styles.css /var/www/html/
 
-# Dar permisos de ejecución al script.sh
-chmod +x /script.sh
+# Dar permisos de ejecución al script.shi
+chmod 777 script.sh
 
-# Exponer el puerto 80
-#EXPOSE 80
 
 # Comando para iniciar NGINX
 nginx -g "daemon off;"
