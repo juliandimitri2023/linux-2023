@@ -1,0 +1,9 @@
+version: "3.9"
+services: 
+  nginxxx:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "4000:70"
+
