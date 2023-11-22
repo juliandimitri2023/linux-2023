@@ -14,7 +14,7 @@ Para clonar este repositorio en tu máquina local ejecutar el siguiente comando:
    git clone https://github.com/juliandimitri2023/linux-2023
 
 ## Alumnos
-Dimitri Julián\n
-Ferrara Jonathan\n
-Céspedes Brian
+Dimitri Julián  
+Ferrara Jonathan  
+Céspedes Brian  
   
