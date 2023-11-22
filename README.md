@@ -8,7 +8,7 @@ En este trabajo práctico, hemos implementado un entorno de desarrollo utilizand
 Se implementó un volumen que perdura en el tiempo, el cuál guarda un archivo contador.txt que indica la cantidad de veces que se inicio el servicio.
 
 ## Instrucciones
-
+![Github logo](github.png)
 Para clonar este repositorio en tu máquina local ejecutar el siguiente comando:
 
    git clone https://github.com/juliandimitri2023/linux-2023
