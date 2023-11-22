@@ -5,6 +5,7 @@ RUN apt update && apt install -y nginx
 #Copio los archivos html, css y el script
 COPY index.html /var/www/html/
 COPY ubuntu.jpg /var/www/html/
+COPY docker.png /var/www/html/
 COPY styles.css /var/www/html/
 COPY script.sh /script.sh
 #Creo un archivo contador.txt y le paso un 9
